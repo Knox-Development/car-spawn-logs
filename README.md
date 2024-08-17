@@ -5,7 +5,7 @@ This resource is designed to log when cars are spawned in by showing who spawned
 ## HOW TO INSTALL
 
 1. Drag the files to your fivem server's files.
-2. Go to Server.cfg and do "ensure [Car-spawn-Logs]
+2. Go to Server.cfg and do "ensure [Car-spawn-Logs]"
 3. Restart your server and join up!
 
 ## Discord
