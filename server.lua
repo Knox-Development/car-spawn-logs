@@ -3,12 +3,7 @@ local webhookURL = ""
 RegisterNetEvent('vehLog:sendToWebhook')
 AddEventHandler('vehLog:sendToWebhook', function(playerServerId, playerName, vehicleName, vehiclePlate, vehicleNetId)
     local message = {
-        ["username"] = "Vehicle Logger",
-        ["embeds"] = {{
-            ["title"] = "Vehicle Spawned",
-            ["description"] = "**Player Name:** " .. playerName .. "\n**Player ID:** " .. playerServerId ..
-                              "\n**Vehicle:** " .. vehicleName .. "\n**Plate:** " .. vehiclePlate,
-            ["color"] = 16711680 
+ {colour = "16711680", source = source, title = "Vehicle Spawned", message = vehiclePlate.. ..playerServerId}
         }},
         ["components"] = {{
             ["type"] = 1,
